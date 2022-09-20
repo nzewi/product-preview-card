@@ -101,18 +101,14 @@ main {
   border-radius: 2rem;
   overflow: hidden;
 
-  display: grid;
-  grid-template-rows: 2fr 3fr;
+  /* display: grid;
+  grid-template-rows: 2fr 3fr; */
 
   /* display: flex;
   flex-direction: column; */
 }
 .card__img {
-  background-image: url(./images/image-product-mobile.jpg);
-  
-  background-size: cover;
-  /* background-position: center; */
-  background-repeat: no-repeat;
+  height: 100%;
 }
 .card__content {
   padding: 3rem 2.5rem 3rem;
@@ -178,13 +174,10 @@ color: var(--color-primary);
   .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
     max-width: 57rem;
   }
 
-  .card__img {
-    background-image: url(./images/image-product-desktop.jpg);
-  }
+
   .card__content {
     padding: 4rem 3rem 4rem;
   }
